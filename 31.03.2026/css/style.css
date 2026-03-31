@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    max-height: 30px;
+    background-color: #BFA28C;
+    padding: 10px;
+    border: 3px solid #A98B76;
+    border-radius: 30px;
+}
+
+.card>input {
+    border-radius: 10px;
+    background-color: #F3E4C9;
+    padding: 4px;
+}
+
+.card>button {
+    border-radius: 10px;
+    background-color: #F3E4C9;
+}
+
+.card_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #BFA28C;
+    padding: 20px;
+    border: 3px solid #A98B76;
+    border-radius: 30px;
+    width: 300px;
+}
